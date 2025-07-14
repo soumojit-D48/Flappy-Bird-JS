@@ -1,0 +1,70 @@
+body {
+  background: #353232;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#board {
+    background-image: url("./flappybirdbg.png");
+}
+
+
+
+
+#scoreBoard {
+  position: absolute;
+  top: 20px;
+  left: 630px;
+  font-size: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 12px 20px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+
+#restartBtn {
+  display: none;
+  font-size: 16px;
+  padding: 6px 12px;
+  background-color: #ffd700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#restartBtn:hover {
+  background-color: #ffc107;
+} 
+
+#startBtn {
+  font-size: 16px;
+  padding: 6px 12px;
+  background-color: #0ed614;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 5px;
+
+}
+
+#startBtn:hover {
+  background-color: #14981a;
+}
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* #highScoreText {
+  font-size: 20px;
+  color: #fff;
+  margin-left: 10px;
+} */
